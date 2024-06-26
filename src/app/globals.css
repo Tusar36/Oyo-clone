@@ -1,0 +1,9 @@
+:root {
+  --bg: #233a77;
+  --activetext: #00ffab;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}

@@ -1,0 +1,37 @@
+.navbar {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  text-decoration: none;
+  transition: all 200ms;
+}
+.links {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: large;
+  padding: 10px;
+}
+.logo {
+  font-size: larger;
+  color: var(--activetext);
+}
+.active {
+  border-bottom: solid 5px;
+  border-color: var(--activetext);
+  color: var(--activetext);
+}
+.signInbtn {
+  /* outline: none; */
+  padding: 10px;
+  color: var(--activetext);
+  background: transparent;
+  border: solid 2px var(--activetext);
+  font-size: large;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
